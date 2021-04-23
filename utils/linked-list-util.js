@@ -1,3 +1,8 @@
+function ListNode(val, next) {
+    this.val = (val === undefined ? 0 : val)
+    this.next = (next === undefined ? null : next)
+}
+
 /**
  * @param arr {number[]}
  * @return {ListNode}
@@ -27,4 +32,7 @@ var printList = function (head) {
     }
 }
 
-export { createList, printList }; 
+
+module.exports = {
+    ListNode,createList, printList
+}
