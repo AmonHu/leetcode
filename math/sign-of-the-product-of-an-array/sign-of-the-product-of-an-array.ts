@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-var arraySign = function (nums) {
+var arraySign = function (nums:number[]) {
     let r = 1;
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] === 0) {
