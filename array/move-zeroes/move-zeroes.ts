@@ -1,7 +1,7 @@
 /**
  Do not return anything, modify nums in-place instead.
  */
-function moveZeroes(nums: number[]): void {
+var moveZeroes = function (nums: number[]): void {
   let len = nums.length;
   for (let i = 0; i < len; i++) {
     if (nums[i] === 0) {
